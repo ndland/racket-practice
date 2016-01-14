@@ -1,6 +1,6 @@
 #lang racket
 
-; A number is in S if n = 0, or n - 3 is in S
+;; A number is in S if n = 0, or n - 3 is in S
 
 (define in-S?
   (lambda (n)
@@ -12,3 +12,6 @@
 (in-S? 3) ; #t
 (in-S? 0) ; #t
 (in-S? 4) ; #f
+
+
+
